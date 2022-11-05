@@ -1,0 +1,5 @@
+Instagram,Metaverse,3500,550,250000
+TwitterFighter,Musk,22430,10000,430000
+Snapchat,Spiegel,28280,2000,147400
+Tiktok,China,5500,850,500000
+Facebook,Zuckerburg,1000,250,56219
