@@ -1,5 +1,5 @@
-Instagram,Metaverse,3500,550,250000
-TwitterFighter,Musk,22430,10000,430000
-Snapchat,Spiegel,28280,2000,147400
-Tiktok,China,5500,850,500000
-Facebook,Zuckerburg,1000,250,56219
+CargoJet,M-V47,3500,550,250000
+BomberJet,F-147,22430,10000,430000
+BatwingJet,B-mobile,28280,2000,147400
+ThorJet,Asgard-14,5500,850,500000
+IronJet,Stark-12,1000,250,56219

@@ -1,20 +1,16 @@
 package com.skilldistillery.jets.entities;
 
-public abstract class Jet {
-
+public class BatwingJet extends Jet{
 	private String model; 
 	private double speed; 
 	private int range; 
 	private double price; 
 	
-	
-	
-	public abstract void fly();
-	
-//	public void fly() {
-//		System.out.println("Flying!!!");
-//	}
-	
+	@Override
+	public String toString() {
+		return "BatwingJet [model=" + model + ", speed=" + speed + ", range=" + range + ", price=" + price + "]";
+	}
+
 	public String getModel() {
 		return model;
 	}
@@ -47,7 +43,8 @@ public abstract class Jet {
 		this.price = price;
 	}
 
-
-
-
+	public void fly() {
+		System.out.println("I am flying!");
+	}
+	
 }

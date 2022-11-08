@@ -1,20 +1,17 @@
 package com.skilldistillery.jets.entities;
 
-public abstract class Jet {
+public class BomberJet extends Jet implements CombatReady{
 
 	private String model; 
 	private double speed; 
 	private int range; 
 	private double price; 
 	
-	
-	
-	public abstract void fly();
-	
-//	public void fly() {
-//		System.out.println("Flying!!!");
-//	}
-	
+	@Override
+	public String toString() {
+		return "BomberJet [model=" + model + ", speed=" + speed + ", range=" + range + ", price=" + price + "]";
+	}
+
 	public String getModel() {
 		return model;
 	}
@@ -47,7 +44,11 @@ public abstract class Jet {
 		this.price = price;
 	}
 
-
-
-
+	public void fight() {
+		System.out.println("Engaging in a dogfight!");
+	}
+	
+	public void fly() {
+		System.out.println("I am flying!");
+	}
 }
